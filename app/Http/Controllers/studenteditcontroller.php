@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class studenteditcontroller extends Controller
 {
         public function index (){
-        return view('student.index');
+        return view('Manage.index');
     }
 }
