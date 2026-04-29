@@ -1,0 +1,32 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        schema::create('studentmngt', function (Blueprint $table) { 
+            $table->id();
+            $table->string('Fname');
+            $table->string('Lname');
+            $table->string('Mname');
+            $table->string('Address');
+            $table->date('DOB');
+            $table->timestamps();
+    });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        //
+    }
+};

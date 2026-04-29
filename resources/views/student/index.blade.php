@@ -9,7 +9,7 @@
               <form role="form">
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Student Name</label>
+                    <label for="exampleInputEmail1">Dummy</label>
                     <input type="Name" class="form-control" id="" placeholder="Enter Student Name">
                   </div>
                   <div class="form-group">
