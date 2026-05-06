@@ -8,6 +8,6 @@ class Manage extends Controller
 {
     public function index()
     {
-        return view('auth.Manage.Manage');
+        return view('auth.Manage.Index');
     }
 }
